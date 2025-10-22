@@ -54,15 +54,16 @@
 
   <h2>Thêm sự kiện</h2>
   <form method="POST" action="/add">
-    <input type="date" name="event_date" required><br>
-    <input type="text" name="description" placeholder="Mô tả sự kiện" required><br>
+    <input type="date" name="event_date" required><br><br>
+    <input type="text" name="description" placeholder="Mô tả sự kiện" required><br><br>
     <button type="submit">Lưu sự kiện</button>
   </form>
 
   <h2>Xem sự kiện</h2>
   <form method="GET" action="/view">
-    <input type="date" name="event_date" required><br>
+    <input type="date" name="event_date" required><br><br>
     <button type="submit">Xem</button>
   </form>
 </body>
 </html>
+
